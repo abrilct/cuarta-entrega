@@ -1,0 +1,193 @@
+h1 {
+  font-family: Kaushan script, cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  font-family: Open Sans condensed, sans serif;
+  color: peachpuff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  font-family: Roboto, sans serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h4 {
+  font-family: Roboto, sans serif;
+}
+
+.datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px;
+  border-top: solid 1px peachpuff;
+  padding-top: 7px;
+}
+
+.datos p {
+  font-family: Roboto, sans serif;
+}
+
+.Animacion {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 10px;
+  background: peachpuff;
+  background: -webkit-gradient(linear, left bottom, left top, from(peachpuff), to(white));
+  background: linear-gradient(0deg, peachpuff 0%, white 100%);
+}
+
+footer p {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: Roboto, sans serif;
+}
+
+footer #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-family: Roboto, sans serif;
+}
+
+footer #footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  font-family: Roboto, sans serif;
+}
+
+footer #footer__redes i {
+  margin-bottom: 10px;
+}
+
+footer #footer__redes a {
+  margin-bottom: 3px;
+  color: black;
+  font-family: Roboto, sans serif;
+}
+
+.card-title {
+  font-family: Roboto, sans serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.card-text {
+  font-family: Roboto, sans serif;
+  text-align: center;
+}
+
+#link {
+  text-decoration: none;
+}
+
+#link :hover {
+  color: #81391c;
+}
+
+.suscribe {
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #cec2a0;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+form {
+  background-color: whitesmoke;
+  font-family: Roboto, sans serif;
+  text-align: center;
+}
+
+form input {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+form #botonSuscripcion {
+  background-color: #0ff85d;
+  border: none;
+  border-radius: 4px;
+}
+
+#producto__Descripcion {
+  font-family: Roboto, sans serif;
+}
+
+.producto__Imagen {
+  border: solid 3px black;
+}
+
+@media only screen and (max-width: 768px) {
+  .producto__Imagen {
+    width: 200px;
+    height: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
